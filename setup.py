@@ -15,17 +15,14 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    description="Bones for faster testing.",
+    description="Bones for faster unit testing.",
     entry_points={
         "console_scripts": [
             "utbone = utbone.utbone:utbone",
         ]
     },
     install_requires=[
-        "flake8>=3.4.1",
-        "pep8>=1.7.0",
         "pyCLI>=2.0.3",
-        "pylint>=1.7.2",
     ],
     license="MIT",
     name="utbone",
