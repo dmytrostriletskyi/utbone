@@ -5,7 +5,16 @@ from setuptools import find_packages, setup
 
 
 setup(
-    classifiers=[],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Libraries',
+
+        'License :: OSI Approved :: MIT License',
+
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+    ],
     description="Bones for faster testing.",
     entry_points={
         "console_scripts": [

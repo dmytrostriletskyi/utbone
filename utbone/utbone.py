@@ -55,6 +55,7 @@ def utbone(app):
     except Exception:  # pylint: disable=broad-except
         # RuntimeError
         print('You are doing it wrong. Type `utbone --help` to see guide how to use this tool.')
+        # pylint: disable=superfluous-parens
         sys.exit(0)
 
 
