@@ -10,10 +10,9 @@ python:
 
 before_install:
 - pip install -r requirements.txt
-- pip install -r requirement-dev.txt
+- pip install -r requirements-dev.txt
 
 script:
 - flake8 utbone
 - pep8 utbone
 - pylint utbone
-
