@@ -2,6 +2,13 @@
 
 Make templates for faster unit testing.
 
+[![Travis](https://travis-ci.org/dmytrostriletskyi/utbone.svg?branch=develop)](https://travis-ci.org/dmytrostriletskyi/utbone)
+[![Release](https://img.shields.io/github/release/dmytrostriletskyi/utbone.svg)](https://github.com/dmytrostriletskyi/utbone/releases)
+![Python3](https://img.shields.io/badge/Python-2.7-brightgreen.svg)
+![Python3](https://img.shields.io/badge/Python-3.5-brightgreen.svg)
+![Python3](https://img.shields.io/badge/Python-3.6-brightgreen.svg)
+
+
 ## Bones for
 
 - `unittesting`.
